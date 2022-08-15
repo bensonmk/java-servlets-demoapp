@@ -45,13 +45,7 @@ public class AddServlet extends HttpServlet {
 		int i = Integer.parseInt(req.getParameter("num1"));
 		int j = Integer.parseInt(req.getParameter("num2"));
 		
-		int k = i + j;
-		
-		// printing data on response object
-//		PrintWriter out = res.getWriter();
-//		
-//		out.println("result is "	+ k);
-		
+		int k = i + j;		
 		
 		req.setAttribute("k", k);
 		
