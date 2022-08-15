@@ -47,7 +47,7 @@ public class AddServlet extends HttpServlet {
 		
 		int k = i + j;		
 
-		// Session management // URL rewriting
+		// URL Rewriting
 		res.sendRedirect("sq?k="+k);
 		
 //		RequestDispatcher rd = req.getRequestDispatcher("sq");
