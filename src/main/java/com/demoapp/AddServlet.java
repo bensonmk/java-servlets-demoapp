@@ -52,6 +52,7 @@ public class AddServlet extends HttpServlet {
 //		
 //		out.println("result is "	+ k);
 		
+		
 		req.setAttribute("k", k);
 		
 		RequestDispatcher rd = req.getRequestDispatcher("sq");
