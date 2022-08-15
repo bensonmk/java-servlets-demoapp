@@ -2,7 +2,7 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
   <display-name>ServletDemoApp</display-name>
   
-  <servlet>
+  <!-- <servlet>
     <servlet-name>add</servlet-name>
     <servlet-class>com.demoapp.AddServlet</servlet-class>
   </servlet>
@@ -10,6 +10,7 @@
     <servlet-name>add</servlet-name>
     <url-pattern>/add</url-pattern>
   </servlet-mapping>
+  
   <servlet>
     <servlet-name>sqroot</servlet-name>
     <servlet-class>com.demoapp.SqServlet</servlet-class>
@@ -29,7 +30,6 @@
     	<param-value>CR7</param-value>
     </init-param>
   </servlet>
-  
   <servlet-mapping>
     <servlet-name>abc</servlet-name>
     <url-pattern>/home</url-pattern>
@@ -43,5 +43,6 @@
   <context-param>
   	<param-name>phone</param-name>
   	<param-value>Asus</param-value>
-  </context-param>
+  </context-param> -->
+  
 </web-app>
